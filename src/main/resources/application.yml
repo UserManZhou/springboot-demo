@@ -1,0 +1,25 @@
+person:
+  username: zhangsan
+  boss: false
+  birth: 2019/09/10 12:12:00
+  age: 12
+  Pet:
+    name: 猫
+    weight: 12.22
+#  interests : [1,2,3,4,5,6]
+  # 或者可以这么写
+  interests:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  animal: [nihao,nihao2]
+#  score :
+#    yingyu : 90
+#    yuwen : 100
+  score: {yingyu : 90,yuwen : 100}
+  salarys:
+    - 999.2
+    - 999.3
+  allPets: {name: [{name: 小猫,weight: 200},{name: 小哥哥,weight: 202}]}
