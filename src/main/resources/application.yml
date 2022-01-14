@@ -1,5 +1,4 @@
 person:
-  username: zhangsan
   boss: false
   birth: 2019/09/10 12:12:00
   age: 12
@@ -23,3 +22,4 @@ person:
     - 999.2
     - 999.3
   allPets: {name: [{name: 小猫,weight: 200},{name: 小哥哥,weight: 202}]}
+  user-name: xiaozang
