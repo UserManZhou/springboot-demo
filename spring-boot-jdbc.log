@@ -1,0 +1,51 @@
+2022-01-19 11:46:45.960  INFO 6436 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Starting SpringbootJdbcApplication using Java 1.8.0_311 on DESKTOP-0CA22NC with PID 6436 (F:\JavaCode\Springboot\springboot-jdbc\target\classes started by 28306 in F:\JavaCode\Springboot)
+2022-01-19 11:46:45.961  INFO 6436 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : No active profile set, falling back to default profiles: default
+2022-01-19 11:46:46.022  INFO 6436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 11:46:46.022  INFO 6436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 11:46:46.535  INFO 6436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-01-19 11:46:46.542  INFO 6436 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2022-01-19 11:46:46.982  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-19 11:46:46.990  INFO 6436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 11:46:46.991  INFO 6436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 11:46:47.047  INFO 6436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 11:46:47.047  INFO 6436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1020 ms
+2022-01-19 11:46:47.356  INFO 6436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-19 11:46:47.507  INFO 6436 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-19 11:46:47.594  WARN 6436 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.OffsetDateTime to class org.springframework.data.jdbc.core.convert.JdbcValue as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-01-19 11:46:47.653  INFO 6436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-19 11:46:47.677  INFO 6436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 11:46:47.686  INFO 6436 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Started SpringbootJdbcApplication in 2.107 seconds (JVM running for 2.962)
+2022-01-19 11:47:07.523  INFO 15912 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Starting SpringbootJdbcApplication using Java 1.8.0_311 on DESKTOP-0CA22NC with PID 15912 (F:\JavaCode\Springboot\springboot-jdbc\target\classes started by 28306 in F:\JavaCode\Springboot)
+2022-01-19 11:47:07.524  INFO 15912 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : No active profile set, falling back to default profiles: default
+2022-01-19 11:47:07.565  INFO 15912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 11:47:07.565  INFO 15912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 11:47:08.040  INFO 15912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-01-19 11:47:08.048  INFO 15912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2022-01-19 11:47:08.413  INFO 15912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-19 11:47:08.420  INFO 15912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 11:47:08.420  INFO 15912 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 11:47:08.470  INFO 15912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 11:47:08.470  INFO 15912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 904 ms
+2022-01-19 11:47:08.726  INFO 15912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-19 11:47:08.847  INFO 15912 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-19 11:47:08.925  WARN 15912 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.OffsetDateTime to class org.springframework.data.jdbc.core.convert.JdbcValue as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-01-19 11:47:08.981  INFO 15912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-19 11:47:09.009  INFO 15912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 11:47:09.022  INFO 15912 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Started SpringbootJdbcApplication in 1.942 seconds (JVM running for 2.963)
+2022-01-19 11:48:55.036  INFO 9832 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Starting SpringbootJdbcApplication using Java 1.8.0_311 on DESKTOP-0CA22NC with PID 9832 (F:\JavaCode\Springboot\springboot-jdbc\target\classes started by 28306 in F:\JavaCode\Springboot)
+2022-01-19 11:48:55.038  INFO 9832 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : No active profile set, falling back to default profiles: default
+2022-01-19 11:48:55.101  INFO 9832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-19 11:48:55.102  INFO 9832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-19 11:48:55.627  INFO 9832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-01-19 11:48:55.634  INFO 9832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2022-01-19 11:48:56.010  INFO 9832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-19 11:48:56.016  INFO 9832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 11:48:56.017  INFO 9832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-19 11:48:56.067  INFO 9832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 11:48:56.067  INFO 9832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 963 ms
+2022-01-19 11:48:56.332  INFO 9832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-19 11:48:56.461  INFO 9832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-19 11:48:56.548  WARN 9832 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.OffsetDateTime to class org.springframework.data.jdbc.core.convert.JdbcValue as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-01-19 11:48:56.596  INFO 9832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-19 11:48:56.619  INFO 9832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 11:48:56.628  INFO 9832 --- [restartedMain] c.s.jdbc.SpringbootJdbcApplication       : Started SpringbootJdbcApplication in 2.203 seconds (JVM running for 3.158)

@@ -1,0 +1,13 @@
+2022-01-13 17:33:57.762  INFO 20564 --- [main] c.s.boot.SpringBootApplicationCustom     : Starting SpringBootApplicationCustom on DESKTOP-0CA22NC with PID 20564 (F:\JavaCode\Springboot\target\classes started by 28306 in F:\JavaCode\Springboot)
+2022-01-13 17:33:57.764  INFO 20564 --- [main] c.s.boot.SpringBootApplicationCustom     : No active profile set, falling back to default profiles: default
+2022-01-13 17:33:58.396  INFO 20564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-01-13 17:33:58.402  INFO 20564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-13 17:33:58.402  INFO 20564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-01-13 17:33:58.536  INFO 20564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-13 17:33:58.536  INFO 20564 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 740 ms
+2022-01-13 17:33:58.638  INFO 20564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-13 17:33:58.734  INFO 20564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-01-13 17:33:58.736  INFO 20564 --- [main] c.s.boot.SpringBootApplicationCustom     : Started SpringBootApplicationCustom in 1.261 seconds (JVM running for 2.048)
+2022-01-13 17:34:07.846  INFO 20564 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-13 17:34:07.847  INFO 20564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-13 17:34:07.850  INFO 20564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
