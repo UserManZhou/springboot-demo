@@ -3,6 +3,7 @@ package com.spring.boot;
 import com.spring.boot.entity.Person;
 import com.spring.boot.entity.User;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -20,6 +21,9 @@ import java.util.logging.Logger;
 public class SpringBootApplicationCustom {
 
     private static  final Logger LOGGER = Logger.getLogger(SpringBootApplicationCustom.class.getName());
+
+    @Autowired
+    public static Person person;
 
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(SpringBootApplicationCustom.class, args);
@@ -53,8 +57,10 @@ public class SpringBootApplicationCustom {
 //        System.out.println(user1);
 //        int beanDefinitionCount = run.getBeanDefinitionCount();
 //        System.out.println(beanDefinitionCount);
-        Person bean = run.getBean(Person.class);
-        System.out.println(bean.toString());
+//        Person bean = run.getBean(Person.class);
+//        System.out.println(bean.toString());
 
+
+        System.out.println("person.getAge() = " + person.getAge());
     }
 }
